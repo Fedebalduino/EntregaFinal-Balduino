@@ -1,0 +1,7 @@
+Hola tutores, buenas tardes.
+
+Adjunto los links tanto del repositorio como el de GitHub pages:
+
+Repositorio: https://github.com/Fedebalduino/PreEntrega-Balduino/tree/main/PreEntrega3-Balduino
+
+GitHub pages: https://fedebalduino.github.io/PreEntrega-Balduino/PreEntrega3-Balduino/index.html
