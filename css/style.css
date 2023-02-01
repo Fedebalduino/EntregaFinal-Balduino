@@ -600,7 +600,10 @@ footer hr {
   .titulo {
     background: rgba(228, 207, 177, 0.877); }
   .resumen {
-    background: rgba(228, 207, 177, 0.877); } }
+    background: rgba(228, 207, 177, 0.877); }
+  .titulo-biografia {
+    font-size: 5px;
+    color: aqua; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   /* MENU HAMBURGUESA TABLET */
