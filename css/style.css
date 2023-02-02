@@ -56,35 +56,33 @@ main {
 .historia-sherlock-holmes {
   padding: 0 3%;
   margin-top: -40px; }
-
-.titulo-historia {
-  text-align: center;
-  background-color: rgba(228, 207, 177, 0.877);
-  font-size: 50px; }
-
-.contenido-historia {
-  margin-top: 10px;
-  text-align: left;
-  background-color: rgba(228, 207, 177, 0.877);
-  font-size: 22px;
-  align-items: center;
-  color: black; }
+  .historia-sherlock-holmes h1 {
+    text-align: center;
+    background-color: rgba(228, 207, 177, 0.877);
+    font-size: 50px; }
+  .historia-sherlock-holmes p {
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgba(228, 207, 177, 0.877);
+    font-size: 22px;
+    align-items: center;
+    color: black; }
 
 .biografia {
   padding: 0 3%;
-  margin-top: 500px; }
-
-.titulo-biografia {
-  text-align: center;
-  background-color: rgba(228, 207, 177, 0.877);
-  font-size: 40px; }
-
-.contenido-biografia {
-  text-align: left;
-  background-color: rgba(228, 207, 177, 0.877);
-  font-size: 22px;
-  align-items: center;
-  color: black; }
+  margin-top: 40px; }
+  .biografia h2 {
+    text-align: center;
+    background-color: rgba(228, 207, 177, 0.877);
+    font-size: 50px;
+    margin-bottom: 480px; }
+  .biografia p {
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgba(228, 207, 177, 0.877);
+    font-size: 22px;
+    align-items: center;
+    color: black; }
 
 .info a:hover {
   background-color: black;
@@ -141,27 +139,29 @@ footer hr {
   display: flex;
   align-items: center; }
 
-.titulo-biografia {
+.titulo-autor {
   text-align: center;
   background-color: rgba(228, 207, 177, 0.877);
   border-width: 2px;
-  margin-top: -440px;
+  margin-top: -70px;
   font-size: 30px; }
+
+/* imagen1 */
+.artur-conan-doyle-1 {
+  display: flex;
+  justify-content: center; }
+  .artur-conan-doyle-1 img {
+    width: 200px;
+    margin-top: 30px; }
 
 .biografia p {
   text-align: left;
   background-color: rgba(228, 207, 177, 0.877);
   font-size: 18px;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: -470px; }
 
 /* IMÁGENES */
-/* imagen1 */
-.artur-conan-doyle-1 img {
-  width: 150px;
-  margin-top: 100px;
-  margin-left: 10px; }
-
 /* imagen2 */
 .artur-conan-doyle-2 img {
   width: 400px;
@@ -619,9 +619,16 @@ footer hr {
     background: rgba(228, 207, 177, 0.877); }
   .resumen {
     background: rgba(228, 207, 177, 0.877); }
-  .titulo-biografia {
-    font-size: 5px;
-    color: #20e207; } }
+  .artur-conan-doyle-1 {
+    margin-top: -120px;
+    width: 200px;
+    display: flex;
+    align-items: right;
+    justify-content: right; }
+  .artur-conan-doyle-2 {
+    width: 200px;
+    display: flex;
+    align-items: center; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   /* MENU HAMBURGUESA TABLET */

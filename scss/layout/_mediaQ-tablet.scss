@@ -35,7 +35,7 @@
 
         /* Estilo del boton cuando el menú está expandido*/
     .respmenu input:checked ~ label {
-            background: $background-principal;
+        background: $background-principal;
         }
 
     .respmenu ul{
@@ -64,8 +64,8 @@
         }
 
     .respmenu li a:hover{
-            background: $background-principal;
-            color: $color-principal;
+        background: $background-principal;
+        color: $color-principal;
         }
     .botones-header{
         display: none;
@@ -75,6 +75,16 @@
         justify-content: space-around;
         }
 
+
+
+
+
+
+
+
+
+
+// PÁGINA INICIO
 
 
         /* PAGINA LIBROS */
