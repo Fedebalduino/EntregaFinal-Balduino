@@ -74,12 +74,11 @@ main {
   .biografia h2 {
     text-align: center;
     background-color: rgba(228, 207, 177, 0.877);
-    font-size: 50px;
-    margin-bottom: 480px; }
+    font-size: 50px; }
   .biografia p {
     margin-top: 10px;
     text-align: left;
-    background-color: rgba(228, 207, 177, 0.877);
+    background-color: green;
     font-size: 22px;
     align-items: center;
     color: black; }
@@ -139,19 +138,19 @@ footer hr {
   display: flex;
   align-items: center; }
 
-.titulo-autor {
+.autor h1 {
   text-align: center;
   background-color: rgba(228, 207, 177, 0.877);
   border-width: 2px;
   margin-top: -70px;
-  font-size: 30px; }
+  font-size: 50px; }
 
-/* imagen1 */
-.artur-conan-doyle-1 {
+/* imagen2 */
+.artur-conan-doyle-2 {
   display: flex;
   justify-content: center; }
-  .artur-conan-doyle-1 img {
-    width: 200px;
+  .artur-conan-doyle-2 img {
+    width: 600px;
     margin-top: 30px; }
 
 .biografia p {
@@ -159,16 +158,9 @@ footer hr {
   background-color: rgba(228, 207, 177, 0.877);
   font-size: 18px;
   align-items: center;
-  margin-top: -470px; }
+  margin-top: 30px; }
 
 /* IMÁGENES */
-/* imagen2 */
-.artur-conan-doyle-2 img {
-  width: 400px;
-  margin-left: 900px;
-  background-color: rgba(228, 207, 177, 0.877);
-  font-size: 50px; }
-
 /* BOTON +INFO */
 .info-biografia {
   display: flex;
@@ -585,9 +577,6 @@ footer hr {
     display: none; }
   .contenedor-header {
     justify-content: space-around; }
-  /* PÁGINA LIBROS */
-  .libros {
-    font-size: 20px; }
   .titulo {
     font-size: 15px; }
   .resumen {
@@ -613,22 +602,85 @@ footer hr {
       width: 180px; }
   .contenedor-header {
     background: rgba(228, 207, 177, 0.877); }
+  .autor h1 {
+    font-size: 35px; }
+  .imagen-sir-srthur-conan-doyle {
+    display: flex;
+    justify-content: center; }
+    .imagen-sir-srthur-conan-doyle img {
+      width: 400px;
+      margin-top: 10px; }
+  /* PÁGINA LIBROS */
   .libros {
-    background: rgba(228, 207, 177, 0.877); }
-  .titulo {
-    background: rgba(228, 207, 177, 0.877); }
-  .resumen {
-    background: rgba(228, 207, 177, 0.877); }
-  .artur-conan-doyle-1 {
-    margin-top: -120px;
-    width: 200px;
-    display: flex;
-    align-items: right;
-    justify-content: right; }
-  .artur-conan-doyle-2 {
-    width: 200px;
-    display: flex;
-    align-items: center; } }
+    font-size: 20px; }
+  .imagen-estudio-en-escarlata-1887, .imagen-el-signo-de-los-cuatro-1890, .imagen-las-memorias-de-sherlock-holmes-1892-93, .imagen-el-regreso-de-sherlock-holmes-1903, .imagen-el-valle-del-terror-1914-15, .imagen-las-aventuras-de-sherlock-holmes-1891-92, .imagen-el-sabueso-de-los-baskervilles-1901-02, .imagen-su-ultima-reverencia-1908-17, .imagen-el-archivo-de-sherlock-holmes-1924-26 {
+    width: 200px; }
+  .imagen-el-signo-de-los-cuatro-1890, .imagen-las-memorias-de-sherlock-holmes-1892-93, .imagen-el-regreso-de-sherlock-holmes-1903, .imagen-el-valle-del-terror-1914-15 {
+    width: 200px; }
+  .imagen-las-aventuras-de-sherlock-holmes-1891-92 {
+    width: 200px; }
+  .imagen-las-memorias-de-sherlock-holmes-1892-93 {
+    width: 200px; }
+  .imagen-el-sabueso-de-los-baskervilles-1901-02 {
+    width: 200px; }
+  .imagen-el-regreso-de-sherlock-holmes-1903 {
+    width: 200px; }
+  .imagen-su-ultima-reverencia-1908-17 {
+    width: 200px; }
+  .imagen-el-valle-del-terror-1914-15 {
+    width: 200px; }
+  .imagen-el-archivo-de-sherlock-holmes-1924-26 {
+    width: 200px; }
+  .peliculas {
+    font-size: 20px; }
+  .imagen-sherlock-holmes-1916, .imagen-el-regreso-de-sherlock-holmes-1929, .imagen-el-sabueso-de-los-baskervilles-1939, .imagen-la-voz-del-terror-1942, .imagen-sherlock-holmes-desafia-a-la-muerte-1943, .imagen-la-garra-escarlata-1944, .imagen-la-mujer-araña-1944, .imagen-la-dama-de-verde-1945, .imagen-terror-en-la-noche-1946, .imagen-el-sabueso-de-los-baskervilles-1959, .imagen-la-vida-privada-de-sherlock-holmes-1970, .imagen-ataque-al-orient-express-1976, .imagen-el-joven-sherlock-holmes-1985, .imagen-el-sabueso-de-los-baskervilles-1988, .imagen-sherlock-holmes-2009, .imagen-holmes-y-watson-madrid-days-2012, .imagen-holmes-y-watson-2018, .imagen-enola-holmes-2-2022 {
+    width: 200px; }
+  .imagen-sherlock-holmes-1922 {
+    width: 200px; }
+  .imagen-el-regreso-de-sherlock-holmes-1929 {
+    width: 200px; }
+  .imagen-el-hombre-que-fue-sherlock-holmes-1937 {
+    width: 200px; }
+  .imagen-las-aventuras-de-sherlock-holmes-1939 {
+    width: 200px; }
+  .imagen-el-arma-secreta-1942 {
+    width: 200px; }
+  .imagen-sherlock-holmes-en-washington-1943 {
+    width: 200px; }
+  .imagen-la-perla-maldita-1944 {
+    width: 200px; }
+  .imagen-la-casa-del-terror-1945 {
+    width: 200px; }
+  .imagen-persecucion-en-argel-1945 {
+    width: 200px; }
+  .imagen-vestida-para-matar-1946 {
+    width: 200px; }
+  .imagen-el-collar-de-la-muerte-1962 {
+    width: 200px; }
+  .imagen-la-aventura-del-hermano-inteligente-de-sherlock-holmes-1975 {
+    width: 200px; }
+  .imagen-asesinato-por-decreto-1979 {
+    width: 200px; }
+  .imagen-sin-pistas-1988 {
+    width: 200px; }
+  .imagen-sherlock-holmes-en-caracas-1991 {
+    width: 200px; }
+  .imagen-sherlock-holmes-juego-de-sombras-2011 {
+    width: 200px; }
+  .imagen-mr-holmes-2015 {
+    width: 200px; }
+  .imagen-enola-holmes-2020 {
+    width: 200px; }
+  .series {
+    font-size: 20px; }
+  .imagen-las-aventuras-de-sherlock-holmes-1984-1994, .imagen-sherlock-holmes-en-el-siglo-xxii-1999-2001, .imagen-elementary-2012-2019, .imagen-sherlock-2010-2017 {
+    width: 200px; }
+  .imagen-sherlock-holmes-en-el-siglo-xxii-1999-2001, .imagen-elementary-2012-2019 {
+    width: 200px; }
+  .imagen-sherlock-2010-2017 {
+    width: 200px; }
+  .imagen-elementary-2012-2019 {
+    width: 200px; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   /* MENU HAMBURGUESA TABLET */
@@ -686,4 +738,26 @@ footer hr {
   .libros {
     font-size: 25px; }
   .titulo {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .peliculas {
+    font-size: 25px; }
+  .imagen-el-arma-secreta-1942 {
+    width: 100px; }
+  .imagen-sherlock-holmes-desafia-a-la-muerte-1943 {
+    width: 100px; }
+  .imagen-sherlock-holmes-en-washington-1943 {
+    width: 100px; }
+  .imagen-la-perla-maldita-1944 {
+    width: 130px; }
+  .imagen-la-mujer-araña-1944 {
+    width: 130px; }
+  .imagen-la-casa-del-terror-1945 {
+    width: 100px; }
+  .imagen-persecucion-en-argel-1945 {
+    width: 80px; }
+  .imagen-sin-pistas-1988 {
+    width: 130px; }
+  .imagen-sherlock-holmes-en-caracas-1991 {
+    width: 35px; }
+  .series {
+    font-size: 25px; } }

@@ -28,8 +28,6 @@
                 }
         }
         
-
-
         /* Estilo del boton cuando se pasa el mouse por encima*/
     .respmenu label:hover{
         background: $background-principal;
@@ -77,13 +75,8 @@
         justify-content: space-around;
         }
 
-// PÁGINA INICIO
 
-
-/* PÁGINA LIBROS */
-.libros{
-    font-size: 20px;
-    }
+// GENERAL
 .titulo{
     font-size: 15px;
     }
@@ -115,41 +108,141 @@
     .contenedor-header{
         background: $background-principal;
     }
-    .libros{
-        background: $background-principal;
-    }
-    .titulo{
-        background: $background-principal;
-    }
-    .resumen{
-        background: $background-principal;
-    }
 
 // PÁGINA AUTOR
-
-.artur-conan-doyle-1{
-        margin-top: -120px;
-        width: 200px;
-        display: flex;
-        align-items: right;
-        justify-content: right;
-
+.autor{
+    h1{
+        font-size: 35px;
+    }
 }
-
-.artur-conan-doyle-2{
-        width: 200px;
-        display: flex;
-        align-items: center; 
-
+.imagen-sir-srthur-conan-doyle{
+    display: flex;
+    justify-content: center;
+    img{
+    width: 400px;
+    margin-top: 10px;
+}
 }
 
 
 
 
+/* PÁGINA LIBROS */
+.libros{
+    font-size: 20px;
+    }
+.imagen-estudio-en-escarlata-1887{
+    width: 200px;
+}
+.imagen-el-signo-de-los-cuatro-1890{
+    width: 200px;
+}
+.imagen-las-aventuras-de-sherlock-holmes-1891-92{
+    width: 200px;
+}
+.imagen-las-memorias-de-sherlock-holmes-1892-93{
+    width: 200px;
+}
+.imagen-el-sabueso-de-los-baskervilles-1901-02{
+        width: 200px;
+}
+.imagen-el-regreso-de-sherlock-holmes-1903{
+    width: 200px;
+}
+.imagen-su-ultima-reverencia-1908-17{
+    width: 200px;
+}
+.imagen-el-valle-del-terror-1914-15{
+    width: 200px;
+}
+.imagen-el-archivo-de-sherlock-holmes-1924-26{
+    width: 200px;
+}
 
 
 
 
 
+// PÁGINA PELICULAS
+.peliculas{
+    font-size: 20px;
+    }
+.imagen-sherlock-holmes-1916{
+    width: 200px;
+}
+.imagen-sherlock-holmes-1922{
+    width: 200px;
+}
+.imagen-el-regreso-de-sherlock-holmes-1929{
+    width: 200px;
+}
+.imagen-el-hombre-que-fue-sherlock-holmes-1937{
+    width: 200px;
+}
+.imagen-las-aventuras-de-sherlock-holmes-1939{
+    width: 200px;
+}
+.imagen-el-arma-secreta-1942{
+    width: 200px;
+}
+.imagen-sherlock-holmes-en-washington-1943{
+    width: 200px;
+}
+.imagen-la-perla-maldita-1944{
+    width: 200px;
+}
+.imagen-la-casa-del-terror-1945{
+    width: 200px;
+}
+.imagen-persecucion-en-argel-1945{
+    width: 200px;
+}
+.imagen-vestida-para-matar-1946{
+    width: 200px;
+}
+.imagen-el-collar-de-la-muerte-1962{
+    width: 200px;
+}
+.imagen-la-aventura-del-hermano-inteligente-de-sherlock-holmes-1975{
+    width: 200px;
+}
+.imagen-asesinato-por-decreto-1979{
+    width: 200px;
+}
+.imagen-sin-pistas-1988{
+    width: 200px;
+}
+.imagen-sherlock-holmes-en-caracas-1991{
+    width: 200px;
+}
+.imagen-sherlock-holmes-juego-de-sombras-2011{
+    width: 200px;
+}
+.imagen-mr-holmes-2015{
+    width: 200px;
+}
+.imagen-enola-holmes-2020{
+    width: 200px;
+}
 
+
+
+
+
+// PÁGINA SERIES
+.series{
+    font-size: 20px;
+    }
+.imagen-las-aventuras-de-sherlock-holmes-1984-1994{
+    width: 200px;
+}
+.imagen-sherlock-holmes-en-el-siglo-xxii-1999-2001{
+    width: 200px;
+}
+.imagen-sherlock-2010-2017{
+    width: 200px;
+}
+.imagen-elementary-2012-2019{
+    width: 200px;
+}
 }
