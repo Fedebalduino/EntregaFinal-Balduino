@@ -82,6 +82,8 @@ main {
     font-size: 22px;
     align-items: center;
     color: black; }
+  .biografia .contenido-biografia {
+    margin-top: 10px; }
 
 .info a:hover {
   background-color: black;
