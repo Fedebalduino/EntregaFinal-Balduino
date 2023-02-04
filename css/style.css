@@ -8,7 +8,11 @@
 body {
   font-family: "Courier New", Courier, monospace; }
   body .background-image-index {
-    background-image: url(../assets/img/sherlock-holmes-2.jpg); }
+    background-image: url(../assets/img/sherlock-holmes-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh; }
 
 .contenedor-header {
   background-color: rgba(228, 207, 177, 0.877);
@@ -527,13 +531,7 @@ footer hr {
 @media (min-width: 1023px) {
   /* MENU HAMBURGUESA DESKTOP */
   .respmenu {
-    display: none; }
-  .background-image-index {
-    background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    min-height: 100vh; } }
+    display: none; } }
 
 @media (min-width: 320px) and (max-width: 768px) {
   /* MENU HAMBURGUESA MOBILE */
@@ -587,6 +585,12 @@ footer hr {
     display: none; }
   .contenedor-header {
     justify-content: space-around; }
+  .background-image-index {
+    background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh; }
   .titulo {
     font-size: 15px; }
   .resumen {
