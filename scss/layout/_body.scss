@@ -1,11 +1,31 @@
 body{
     font-family: $tipografia-principal;
 
+    // PÁGINA INDEX
     .background-image-index{
         background-image: url(../assets/img/sherlock-holmes-2.jpg);
         background-size: cover;
         background-attachment: fixed;
         position: relative;
         min-height: 100vh;
+    }
+    // PÁGINA AUTOR
+    .background-image-autor{
+        @extend .background-image-index;
+        background-image: url(../assets/img/londres.jpg);
+    }
+    // PÁGINA LIBROS
+    .background-image-libros{
+        @extend .background-image-index;
+        background-image: url(../assets/img/hoja-libro.jpg);
+    }
+    // PAGINA PELICULAS
+    .background-image-peliculas{
+        @extend .background-image-index;
+        background-image: url(../assets/img/cinta.jpg);
+    }
+    // PAGINA SERIES
+    .background-image-series{
+        @extend .background-image-autor;
     }
 }

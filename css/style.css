@@ -7,12 +7,18 @@
 
 body {
   font-family: "Courier New", Courier, monospace; }
-  body .background-image-index {
+  body .background-image-index, body .background-image-autor, body .background-image-series, body .background-image-libros, body .background-image-peliculas {
     background-image: url(../assets/img/sherlock-holmes-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     min-height: 100vh; }
+  body .background-image-autor, body .background-image-series {
+    background-image: url(../assets/img/londres.jpg); }
+  body .background-image-libros {
+    background-image: url(../assets/img/hoja-libro.jpg); }
+  body .background-image-peliculas {
+    background-image: url(../assets/img/cinta.jpg); }
 
 .contenedor-header {
   background-color: rgba(228, 207, 177, 0.877);
@@ -81,15 +87,9 @@ main {
     text-align: center;
     background-color: rgba(228, 207, 177, 0.877);
     font-size: 50px; }
-  .biografia p {
-    margin-top: 10px;
-    text-align: left;
-    background-color: rgba(228, 207, 177, 0.877);
-    font-size: 22px;
-    align-items: center;
-    color: black; }
   .biografia .contenido-biografia {
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-size: 22px; }
 
 .info a:hover {
   background-color: black;
@@ -531,6 +531,8 @@ footer hr {
 @media (min-width: 1023px) {
   /* MENU HAMBURGUESA DESKTOP */
   .respmenu {
+    display: none; }
+  .back-mq {
     display: none; } }
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -585,12 +587,9 @@ footer hr {
     display: none; }
   .contenedor-header {
     justify-content: space-around; }
-  .background-image-index {
-    background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    min-height: 100vh; }
+  .background-image-index, body .background-image-autor, body .background-image-series, body .background-image-libros, body .background-image-peliculas {
+    background-image: none;
+    background-color: aqua; }
   .titulo {
     font-size: 15px; }
   .resumen {

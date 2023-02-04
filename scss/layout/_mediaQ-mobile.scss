@@ -77,11 +77,16 @@
 
 // INDEX
 .background-image-index {
-background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg);
-background-size: cover;
-background-attachment: fixed;
-position: relative;
-min-height: 100vh;    
+    background-image: none;
+
+
+
+// background-image: url(../assets/img/londres.jpg);
+// background-size: cover;
+// background-attachment: fixed;
+// position: relative;
+// min-height: 100vh;
+background-color: aqua;
 }
 
 
