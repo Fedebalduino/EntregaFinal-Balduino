@@ -78,7 +78,7 @@ main {
   .biografia p {
     margin-top: 10px;
     text-align: left;
-    background-color: green;
+    background-color: rgba(228, 207, 177, 0.877);
     font-size: 22px;
     align-items: center;
     color: black; }
@@ -148,12 +148,12 @@ footer hr {
   font-size: 50px; }
 
 /* imagen2 */
-.artur-conan-doyle-2 {
+.imagen-sir-srthur-conan-doyle {
   display: flex;
   justify-content: center; }
-  .artur-conan-doyle-2 img {
+  .imagen-sir-srthur-conan-doyle img {
     width: 600px;
-    margin-top: 30px; }
+    margin-top: 10px; }
 
 .biografia p {
   text-align: left;
@@ -610,7 +610,7 @@ footer hr {
     display: flex;
     justify-content: center; }
     .imagen-sir-srthur-conan-doyle img {
-      width: 400px;
+      width: 370px;
       margin-top: 10px; }
   /* PÁGINA LIBROS */
   .libros {
