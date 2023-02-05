@@ -3,7 +3,7 @@ body{
 
     // PÁGINA INDEX
     .background-image-index{
-        background-image: url(../assets/img/media-query-desktop/sherlock-holmes-2.jpg);
+        background-image: url(../assets/img/media-query-desktop/sherlock-holmes-2);
         background-size: cover;
         background-attachment: fixed;
         position: relative;
@@ -17,7 +17,7 @@ body{
     // PÁGINA LIBROS
     .background-image-libros{
         @extend .background-image-index;
-        background-image: url(../assets/img/hoja-libro.jpg);
+        background-image: url(../assets/img/media-query-desktop/hoja-libro.jpg);
     }
     // PAGINA PELICULAS
     .background-image-peliculas{
