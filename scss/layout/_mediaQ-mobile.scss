@@ -80,26 +80,41 @@ body{
     .background-image-index{
         background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg);
         background-size: contain;
+        background-attachment: fixed;
+        position: relative;
+        min-height: 100vh;
     }
 
     .background-image-autor{
         background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg);
         background-size: contain;
+        background-attachment: fixed;
+        position: relative;
+        min-height: 100vh;
     }
 
     .background-image-libros{
         background-image: url(../assets/img/media-query-mobile/hoja-libro-mq.jpg);
         background-size: contain;
+        background-attachment: fixed;
+        position: relative;
+        min-height: 100vh;
     }
 
     .background-image-peliculas{
         background-image: url(../assets/img/media-query-mobile/sherlock-holmes-peliculas-mobile.jpg);
         background-size: contain;
+        background-attachment: fixed;
+        position: relative;
+        min-height: 100vh;
     }
 
     .background-image-series{
         background-image: url(../assets/img/media-query-mobile/221-b.jpg);
         background-size: contain;
+        background-attachment: fixed;
+        position: relative;
+        min-height: 100vh;
     }
 }
 
