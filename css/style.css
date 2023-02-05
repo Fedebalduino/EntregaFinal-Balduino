@@ -8,7 +8,7 @@
 body {
   font-family: "Courier New", Courier, monospace; }
   body .background-image-index, body .background-image-autor, body .background-image-libros, body .background-image-peliculas, body .background-image-series {
-    background-image: url(../assets/img/sherlock-holmes-2.jpg);
+    background-image: url(../assets/img/media-query-desktop/sherlock-holmes-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -16,11 +16,11 @@ body {
   body .background-image-autor {
     background-image: url(../assets/img/londres.jpg); }
   body .background-image-libros {
-    background-image: url(../assets/img/hoja-libro.jpg); }
+    background-image: url(../assets/img/media-query-desktop/hoja-libro.jpg); }
   body .background-image-peliculas {
-    background-image: url(../assets/img/cinta.jpg); }
+    background-image: url(../assets/img/media-query-desktop/cinta.jpg); }
   body .background-image-series {
-    background-image: url(../assets/img/series-3.jpg); }
+    background-image: url(../assets/img/media-query-desktop/series-3.jpg); }
 
 .contenedor-header {
   background-color: rgba(228, 207, 177, 0.877);
@@ -371,7 +371,7 @@ footer hr {
 
 /* sherlock-holmes-en-washington-1943 */
 .imagen-sherlock-holmes-en-washington-1943 {
-  width: 39px; }
+  width: 52px; }
 
 /* la-garra-escarlata-1944 */
 .imagen-la-garra-escarlata-1944 {
@@ -387,7 +387,7 @@ footer hr {
 
 /* la-casa-del-terror-1945 */
 .imagen-la-casa-del-terror-1945 {
-  width: 40px; }
+  width: 55px; }
 
 /* la-dama-de-verde-1945 */
 .imagen-la-dama-de-verde-1945 {
@@ -395,7 +395,7 @@ footer hr {
 
 /* persecucion-en-argel-1945 */
 .imagen-persecucion-en-argel-1945 {
-  width: 40px; }
+  width: 55px; }
 
 /* terror-en-la-noche-1946 */
 .imagen-terror-en-la-noche-1946 {
@@ -443,7 +443,7 @@ footer hr {
 
 /* sherlock-holmes-en-caracas-1991 */
 .imagen-sherlock-holmes-en-caracas-1991 {
-  width: 20px; }
+  width: 52px; }
 
 /* sherlock-holmes-2009 */
 .imagen-sherlock-holmes-2009 {
@@ -587,15 +587,15 @@ footer hr {
   .contenedor-header {
     justify-content: space-around; }
   body .background-image-index, body .background-image-autor, body .background-image-libros, body .background-image-peliculas, body .background-image-series {
-    background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg); }
+    background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg); }
   body .background-image-autor {
-    background-image: url(../assets/img/fondo-sherlock-holmes.jpg); }
+    background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg); }
   body .background-image-libros {
-    background-image: url(../assets/img/hoja-libro-mq.jpg); }
+    background-image: url(../assets/img/media-query-mobile/hoja-libro-mq.jpg); }
   body .background-image-peliculas {
-    background-image: url(../assets/img/sherlock-holmes-index-mobile-2.jpg); }
+    background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile-2.jpg); }
   body .background-image-series {
-    background-image: url(../assets/img/221-b.jpg); }
+    background-image: url(../assets/img/media-query-mobile/221-b.jpg); }
   .titulo {
     font-size: 15px; }
   .resumen {

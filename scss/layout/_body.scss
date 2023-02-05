@@ -3,7 +3,7 @@ body{
 
     // PÁGINA INDEX
     .background-image-index{
-        background-image: url(../assets/img/media-query-desktop/sherlock-holmes-2);
+        background-image: url(../assets/img/media-query-desktop/sherlock-holmes-2.jpg);
         background-size: cover;
         background-attachment: fixed;
         position: relative;
@@ -22,11 +22,11 @@ body{
     // PAGINA PELICULAS
     .background-image-peliculas{
         @extend .background-image-index;
-        background-image: url(../assets/img/cinta.jpg);
+        background-image: url(../assets/img/media-query-desktop/cinta.jpg);
     }
     // PAGINA SERIES
     .background-image-series{
         @extend .background-image-index;
-        background-image: url(../assets/img/series-3.jpg);
+        background-image: url(../assets/img/media-query-desktop/series-3.jpg);
     }
 }
