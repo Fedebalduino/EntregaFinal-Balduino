@@ -79,9 +79,8 @@
 body{
     .background-image-index{
         background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size: contain;
         position: relative;
         min-height: 100vh;
     }
