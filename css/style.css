@@ -587,8 +587,7 @@ footer hr {
   .contenedor-header {
     justify-content: space-around; }
   body .background-image-index, body .background-image-autor, body .background-image-libros, body .background-image-peliculas, body .background-image-series {
-    background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg);
-    background-size: contain; }
+    background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg); }
   body .background-image-autor {
     background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg);
     background-size: contain; }
