@@ -1,0 +1,11 @@
+Hola Maxi, buenas tardes.
+
+Adjunto los links para la entrega final del proyecto:
+
+Repositorio: https://github.com/Fedebalduino/EntregaFinal-Balduino
+
+GitHub pages: https://fedebalduino.github.io/EntregaFinal-Balduino/
+
+Figma: https://www.figma.com/file/MvepYxuTO2yTqCPoPt4vTK/SHERLOCK-HOLMES?node-id=0%3A1&t=gExhBL75tQW9bLz1-1
+
+Servidor: https://sherlockholmescoder.000webhostapp.com/
