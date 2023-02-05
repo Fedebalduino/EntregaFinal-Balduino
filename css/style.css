@@ -7,18 +7,20 @@
 
 body {
   font-family: "Courier New", Courier, monospace; }
-  body .background-image-index, body .background-image-autor, body .background-image-series, body .background-image-libros, body .background-image-peliculas {
+  body .background-image-index, body .background-image-autor, body .background-image-libros, body .background-image-peliculas, body .background-image-series {
     background-image: url(../assets/img/sherlock-holmes-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     min-height: 100vh; }
-  body .background-image-autor, body .background-image-series {
+  body .background-image-autor {
     background-image: url(../assets/img/londres.jpg); }
   body .background-image-libros {
     background-image: url(../assets/img/hoja-libro.jpg); }
   body .background-image-peliculas {
     background-image: url(../assets/img/cinta.jpg); }
+  body .background-image-series {
+    background-image: url(../assets/img/series-3.jpg); }
 
 .contenedor-header {
   background-color: rgba(228, 207, 177, 0.877);
@@ -168,7 +170,6 @@ footer hr {
   align-items: center;
   margin-top: 30px; }
 
-/* IMÁGENES */
 /* BOTON +INFO */
 .info-biografia {
   display: flex;
@@ -531,8 +532,6 @@ footer hr {
 @media (min-width: 1023px) {
   /* MENU HAMBURGUESA DESKTOP */
   .respmenu {
-    display: none; }
-  .back-mq {
     display: none; } }
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -587,9 +586,16 @@ footer hr {
     display: none; }
   .contenedor-header {
     justify-content: space-around; }
-  .background-image-index, body .background-image-autor, body .background-image-series, body .background-image-libros, body .background-image-peliculas {
-    background-image: none;
-    background-color: aqua; }
+  body .background-image-index, body .background-image-autor, body .background-image-libros, body .background-image-peliculas, body .background-image-series {
+    background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg); }
+  body .background-image-autor {
+    background-image: url(../assets/img/fondo-sherlock-holmes.jpg); }
+  body .background-image-libros {
+    background-image: url(../assets/img/hoja-libro-mq.jpg); }
+  body .background-image-peliculas {
+    background-image: url(../assets/img/sherlock-holmes-index-mobile-2.jpg); }
+  body .background-image-series {
+    background-image: url(../assets/img/221-b.jpg); }
   .titulo {
     font-size: 15px; }
   .resumen {
@@ -747,11 +753,12 @@ footer hr {
     display: none; }
   .contenedor-header {
     justify-content: space-around; }
+  .titulo {
+    font-size: 20px; }
   /* PAGINA LIBROS */
   .libros {
     font-size: 25px; }
-  .titulo {
-    font-size: 20px; }
+  /* PAGINA PELÍCULAS */
   .peliculas {
     font-size: 25px; }
   .imagen-el-arma-secreta-1942 {

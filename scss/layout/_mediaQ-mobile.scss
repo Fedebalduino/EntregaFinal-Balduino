@@ -75,21 +75,28 @@
         justify-content: space-around;
         }
 
-// INDEX
-.background-image-index {
-    background-image: none;
+// BACKGROUND-IMAGES
+body{
+    .background-image-index{
+        background-image: url(../assets/img/sherlock-holmes-index-mobile.jpg);
+    }
 
+    .background-image-autor{
+        background-image: url(../assets/img/fondo-sherlock-holmes.jpg);
+    }
 
+    .background-image-libros{
+        background-image: url(../assets/img/hoja-libro-mq.jpg);
+    }
 
-// background-image: url(../assets/img/londres.jpg);
-// background-size: cover;
-// background-attachment: fixed;
-// position: relative;
-// min-height: 100vh;
-background-color: aqua;
+    .background-image-peliculas{
+        background-image: url(../assets/img/sherlock-holmes-index-mobile-2.jpg);
+    }
+
+    .background-image-series{
+        background-image: url(../assets/img/221-b.jpg);
+    }
 }
-
-
 
 
 // GENERAL
@@ -139,6 +146,7 @@ background-color: aqua;
         margin-top: 10px;
     }
 }
+
 
 
 

@@ -75,96 +75,50 @@
         justify-content: space-around;
         }
 
+    // GENERAL
+    .titulo{
+        font-size: 20px;
+        }
 
+    /* PAGINA LIBROS */
+    .libros{
+        font-size: 25px;
+        }
 
-
-
-
-
-
-
-
-// PÁGINA AUTOR
-
-
-
-
-
-
-
-
-
-
-
-/* PAGINA LIBROS */
-.libros{
-    font-size: 25px;
+    /* PAGINA PELÍCULAS */
+    .peliculas{
+        font-size: 25px;
+    }
+    .imagen-el-arma-secreta-1942{
+        width: 100px;
+    }
+    .imagen-sherlock-holmes-desafia-a-la-muerte-1943{
+        width: 100px;
+    }
+    .imagen-sherlock-holmes-en-washington-1943{
+        width: 100px;
+    }
+    .imagen-la-perla-maldita-1944{
+        width: 130px;
+    }
+    .imagen-la-mujer-araña-1944{
+        width: 130px;
+    }
+    .imagen-la-casa-del-terror-1945{
+        width: 100px;
+    }
+    .imagen-persecucion-en-argel-1945{
+        width: 80px;
+    }
+    .imagen-sin-pistas-1988{
+        width: 130px;
+    }
+    .imagen-sherlock-holmes-en-caracas-1991{
+        width: 35px;
     }
 
-.titulo{
-    font-size: 20px;
+    // PÁGINA SERIES
+    .series{
+        font-size: 25px;
     }
-
-.peliculas{
-    font-size: 25px;
-}
-.imagen-el-arma-secreta-1942{
-    width: 100px;
-}
-.imagen-sherlock-holmes-desafia-a-la-muerte-1943{
-    width: 100px;
-}
-.imagen-sherlock-holmes-en-washington-1943{
-    width: 100px;
-}
-.imagen-la-perla-maldita-1944{
-    width: 130px;
-}
-.imagen-la-mujer-araña-1944{
-    width: 130px;
-}
-.imagen-la-casa-del-terror-1945{
-    width: 100px;
-}
-.imagen-persecucion-en-argel-1945{
-    width: 80px;
-}
-.imagen-sin-pistas-1988{
-    width: 130px;
-}
-.imagen-sherlock-holmes-en-caracas-1991{
-    width: 35px;
-}
-
-// PÁGINA SERIES
-.series{
-    font-size: 25px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
