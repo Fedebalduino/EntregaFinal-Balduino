@@ -590,13 +590,17 @@ footer hr {
     background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg);
     background-size: contain; }
   body .background-image-autor {
-    background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg); }
+    background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg);
+    background-size: contain; }
   body .background-image-libros {
-    background-image: url(../assets/img/media-query-mobile/hoja-libro-mq.jpg); }
+    background-image: url(../assets/img/media-query-mobile/hoja-libro-mq.jpg);
+    background-size: contain; }
   body .background-image-peliculas {
-    background-image: url(../assets/img/media-query-mobile/sherlock-holmes-peliculas-mobile.jpg); }
+    background-image: url(../assets/img/media-query-mobile/sherlock-holmes-peliculas-mobile.jpg);
+    background-size: contain; }
   body .background-image-series {
-    background-image: url(../assets/img/media-query-mobile/221-b.jpg); }
+    background-image: url(../assets/img/media-query-mobile/221-b.jpg);
+    background-size: contain; }
   .titulo {
     font-size: 15px; }
   .resumen {

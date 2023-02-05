@@ -84,18 +84,22 @@ body{
 
     .background-image-autor{
         background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg);
+        background-size: contain;
     }
 
     .background-image-libros{
         background-image: url(../assets/img/media-query-mobile/hoja-libro-mq.jpg);
+        background-size: contain;
     }
 
     .background-image-peliculas{
         background-image: url(../assets/img/media-query-mobile/sherlock-holmes-peliculas-mobile.jpg);
+        background-size: contain;
     }
 
     .background-image-series{
         background-image: url(../assets/img/media-query-mobile/221-b.jpg);
+        background-size: contain;
     }
 }
 
