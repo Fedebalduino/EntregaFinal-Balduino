@@ -603,7 +603,9 @@ footer hr {
   body .background-image-series {
     background-image: url(../assets/img/media-query-mobile/221-b.jpg);
     background-size: contain;
-    background-repeat: none; }
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh; }
   .titulo {
     font-size: 15px; }
   .resumen {
