@@ -589,7 +589,10 @@ footer hr {
   body .background-image-index, body .background-image-autor, body .background-image-libros, body .background-image-peliculas, body .background-image-series {
     background-image: url(../assets/img/media-query-mobile/sherlock-holmes-index-mobile.jpg);
     background-size: contain;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh; }
   body .background-image-autor {
     background-image: url(../assets/img/media-query-mobile/fondo-sherlock-holmes.jpg); }
   body .background-image-libros {
